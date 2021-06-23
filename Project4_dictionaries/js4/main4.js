@@ -1,5 +1,7 @@
 //KVP: Key-Value Pair Collection
 
+
+
 //matching function--
 functin myDictionary() {
     var Animal = {
@@ -12,3 +14,9 @@ functin myDictionary() {
     delete Animal.Sound;
     document.getElementById("dictionary").innerHTML + Animal.Sound;
 }
+
+//operators - Output String--
+document.write(typeof "word");
+
+//operators - Output Number--
+document.write(typeof 3);
