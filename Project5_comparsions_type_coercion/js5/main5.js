@@ -32,3 +32,6 @@ document.write(-3E310);
 document.write(10>2);
 //false
 document.write(10<2);
+
+//console.log() function--
+console.log(2 + 2);

@@ -25,8 +25,8 @@ function division() {
 //multiply, subtract, add simultaneous function
 function more_math() {
     var simple_math = (1 + 2) * 10 / 2 - 5;
-    document.getElementById("math").innerHTML="1 plus 2, multiplied by 10,
-    + divided in half and then subtracted by 5 equals " + simple_math;
+    document.getElementById("math").innerHTML="1 plus 2, multiplied by 10,"
+    "+ divided in half and then subtracted by 5 equals " + simple_math;
 }
 
 //modulus operatior function--
@@ -52,13 +52,8 @@ var X = 5.25;
 X--;
 document.write(X);
 
+//random between 0 & 1
+window.alert(math.random());
 
-
-// Assign values to x and y
-let x = 10;
-let y = 20;
-
-//add x and y and assign the sum to z
-let z = x + y;
-
-console.log(z)
+//random between ___ and ___
+window.alert(math.random() * 100);

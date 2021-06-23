@@ -3,7 +3,7 @@
 
 
 //matching function--
-functin myDictionary() {
+function myDictionary() {
     var Animal = {
         Species:"Dog",
         Color:"Black",
