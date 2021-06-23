@@ -6,27 +6,14 @@
         <script src=./js3/main3.js></script>
 	</head>
 	<body>
-		
-        <script language="javascript">
-			var calculator = (function() {
-				
-				function addition_function(param1, param2) {
-					return param1 + param2;
-				}
+	
+	
+		<p id="math" onclick="addition_function()">Click  me!</p>
+		<p id="math" onclick="subtraction_function()">Click  me!</p>
+		<p id="math" onclick="multiplication()">Click  me!</p>
+		<p id="math" onclick="division()">Click  me!</p>
+		<p id="math" onclick="more_math()">Click  me!</p>
 
-				function minus (param1, param2) {
-					return param1 - param2;
-				}
-
-				return {
-					Add: Add,
-					Subtract: Subtract
-				}
-			})();
-
-			alert(calculator.add(2,3));
-			alert(calculator.subtract(5,3));
-		</script>
         
 	</body>
 </html>
