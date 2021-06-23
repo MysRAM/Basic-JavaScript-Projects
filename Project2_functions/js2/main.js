@@ -7,5 +7,5 @@ function changeText(){
 function myFunction() {
 	var demo = document.getElementById("demo");
     console.log(demo.innerHTML);
-    demo.innerHTML="x.style.color = "red";"
+    demo.innerHTML= "YOU ARE A WINNER!";
 }
