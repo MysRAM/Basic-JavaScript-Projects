@@ -6,11 +6,27 @@
         <script src=./js3/main3.js></script>
 	</head>
 	<body>
-        <p> function addition_function() {
-            var addition = 2 + 2;
-            document.getElementById("math").innerHTML = "2 + 2 = " + addition;
-        }
-        
+		
+        <script language="javascript">
+			var calculator = (function() {
+				
+				function addition_function(param1, param2) {
+					return param1 + param2;
+				}
+
+				function minus (param1, param2) {
+					return param1 - param2;
+				}
+
+				return {
+					Add: Add,
+					Subtract: Subtract
+				}
+			})();
+
+			alert(calculator.add(2,3));
+			alert(calculator.subtract(5,3));
+		</script>
         
 	</body>
 </html>
