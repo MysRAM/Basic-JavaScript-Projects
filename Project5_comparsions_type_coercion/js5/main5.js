@@ -35,3 +35,33 @@ document.write(10<2);
 
 //console.log() function--
 console.log(2 + 2);
+
+//Comparison
+//true
+document.write(10 == 10);
+//false
+document.write(3 == 11);
+
+//equal in value AND type--
+//true
+X = 10;
+Y = 10;
+document.write(X === Y);
+//false
+X = 82
+Y = "82"
+document.write(X === Y);
+
+//Logical Operators
+//AND: &&
+//True
+document.write (5 > 2 && 10> 4);
+//false
+document.write (5 > 10 && 10 > 4);
+
+//OR: ||
+//true
+document.write (5 > 10 || 10 > 4);
+//false
+document.write (5 > 10 || 10 > 20);
+
