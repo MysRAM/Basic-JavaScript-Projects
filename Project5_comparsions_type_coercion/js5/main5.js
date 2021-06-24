@@ -6,10 +6,6 @@ document.write("10" + 5);
 
 //operator type 
 
-//html NaN, Infinity, -Infinity--
-<script src="Example.js"></script>
-<p id="test" onclick="myFunction()">Click here!</p>
-
 //js NaN, Infinity, -Infinity--
 function myFunction() {
     document.getElementById("test").innerHTML = 0/0;
@@ -66,8 +62,6 @@ document.write (5 > 10 || 10 > 4);
 document.write (5 > 10 || 10 > 20);
 
 //NOT: !
-//html tag
-<p id="Not" onclick="notFunction()">Click Here!</p>
 //js --RETURNS FALSE
 function notFunction() {
     document.getElementById("Not").innerHTML = ! (20 > 10);
