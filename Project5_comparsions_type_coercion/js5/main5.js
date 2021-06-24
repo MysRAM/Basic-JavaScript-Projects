@@ -65,3 +65,14 @@ document.write (5 > 10 || 10 > 4);
 //false
 document.write (5 > 10 || 10 > 20);
 
+//NOT: !
+//html tag
+<p id="Not" onclick="notFunction()">Click Here!</p>
+//js --RETURNS FALSE
+function notFunction() {
+    document.getElementById("Not").innerHTML = ! (20 > 10);
+}
+//js --RETURNS TRUE
+function notFunction("Not") {
+    document.getElementById("Not").innerHTML = !(5 > 10);
+}
