@@ -13,9 +13,13 @@ function myFunction() {
 
 //is it a NaN function--
 //true
-document.getElementById("test").innerHTML = isNaN('This is a string');
+function myNaN() {
+    document.getElementById("NaN").innerHTML = 'This is a string';
+}
 //false
-document.getElementById("test").innerHTML = isNaN('007');
+function myisNaN() {
+document.getElementById("isNaN").innerHTML = 007;
+}
 
 //infinity
 document.write(2E310);
@@ -29,7 +33,7 @@ document.write(10>2);
 //false
 document.write(10<2);
 
-//console.log() function--
+//console.log() --
 console.log(2 + 2);
 
 //Comparison
