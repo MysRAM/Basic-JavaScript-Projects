@@ -67,6 +67,6 @@ function notFunction() {
     document.getElementById("Not").innerHTML = ! (20 > 10);
 }
 //js --RETURNS TRUE
-function notFunction("Not") {
-    document.getElementById("Not").innerHTML = !(5 > 10);
+function trueFunction() {
+    document.getElementById("Nottrue").innerHTML = ! (5 > 10);
 }

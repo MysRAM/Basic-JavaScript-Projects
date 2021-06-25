@@ -12,11 +12,6 @@ function myDictionary() {
         Sound:"Bark!"
     };
     delete Animal.Sound;
-    document.getElementById("dictionary").innerHTML + Animal.Sound;
+    document.getElementById("dictionary").innerHTML = Animal.Sound;
 }
 
-//operators - Output String--
-document.write(typeof "word");
-
-//operators - Output Number--
-document.write(typeof 3);
