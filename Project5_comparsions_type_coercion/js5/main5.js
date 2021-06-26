@@ -8,17 +8,20 @@ document.write("10" + 5);
 
 //js NaN, Infinity, -Infinity--
 function myFunction() {
+    typeof(undefined)
     document.getElementById("test").innerHTML = 0/0;
 }
 
 //is it a NaN function--
 //true
 function myNaN() {
+    typeof(String) //returns string
     document.getElementById("NaN").innerHTML = 'This is a string';
 }
 //false
 function myisNaN() {
-document.getElementById("isNaN").innerHTML = 007;
+    typeof(4+7);  //returns number
+    document.getElementById("isNaN").innerHTML = '007';
 }
 
 //infinity
