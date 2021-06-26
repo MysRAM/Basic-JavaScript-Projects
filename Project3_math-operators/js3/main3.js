@@ -1,3 +1,4 @@
+
 //addition function--
 function addition_function() {
     var addition = 2 + 2;
@@ -43,14 +44,21 @@ function negation_operator() {
 }
 
 //increment operators--
-var X = 5;
-X++;
-document.write(X);
+function increment() {
+    var X = 5;
+    X++;
+    document.write(X);
+    document.getElementById("increment").innerHTML = " X " + +1
+}
+
 
 //decrement operators--
+function decrement() {
 var X = 5.25;
 X--;
 document.write(X);
+document.getElementById("increment").innerHTML = " X " + -1;
+}
 
 //random between 0 & 1
 window.alert(Math.random());
