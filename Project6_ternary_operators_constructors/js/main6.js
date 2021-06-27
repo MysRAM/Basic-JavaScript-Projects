@@ -35,13 +35,13 @@ function myFunction() {
 function Client(Program, OneonOne , PaymentPlan, Race) {
     this.Client_Program = Program;
     this.Client_OneonOne = OneonOne;
-    this.Clent_PaymentPlan = PaymentPlan;
+    this.Client_PaymentPlan = PaymentPlan;
 }
 var Elisabeth = new Client("InnerSANCTUM", "Does", "none");
 var Lisa = new Client("Consultation", "Does", "half up front");
 var Emily = new Client("BackDOOR ShadowWORK", "Does", "quartly payments per week");
 function myNewThis() {
-    document.getElementById("New_and_This").innerHTML = "Elisabeth is enrolled in " + Elisabeth.Client_Program + " and " + Elisabeth.Client_OneonONe + " a one on one and her chosen payment plan includes payments broken into " + Elisabeth.Client_PaymentPlan + "increments";
+    document.getElementById("New_and_This").innerHTML = "Elisabeth is enrolled in " + Elisabeth.Client_Program + " and " + Elisabeth.Client_OneonOne + " a one on one and her chosen payment plan includes payments broken into " + Elisabeth.Client_PaymentPlan + "increments";
 }
 
 //identifiers
