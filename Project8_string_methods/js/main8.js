@@ -26,16 +26,26 @@ function SearchMethod() {
     var str = "Vist The Tech Academy for bootcamp information";
     var result = str.search(bootcamp);
     document.getElementById("Method").innerHTML = result;
-}
 
 //number Methods
 function string_Method() {
     var X = 182
     document.getElementById("Numbers_to_string").innerHTML = X.toString();
-}
 
 //toPrecision() Method
 function precision_Method() {
     var X = 12938.3012987376112;
     document.getElementById("Precision").innerHTML = X.toPrecision(10);
-}
+
+//toFixed() Method
+function anotherMethod() {
+    var num = 5.56789;
+    var n = num.toFixed(2);
+    document.getElementById("Fixed").innerHTML = n;
+
+//valueOf() Method
+    function valuable() {
+        var str = "Hello World!";
+        var res = str.valueOf();
+        document.getElementById("valuable").innerHTML = res;
+        
