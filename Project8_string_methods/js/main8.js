@@ -23,7 +23,19 @@ function upperCase() {
 
 //Search() Method
 function SearchMethod() {
-    var string = "Vist The Tech Academy for bootcamp information";
-    var n = string.search("bootcamp");
-    document.getElementById("bootcamp").innerHTML = n;
+    var str = "Vist The Tech Academy for bootcamp information";
+    var result = str.search(bootcamp);
+    document.getElementById("Method").innerHTML = result;
+}
+
+//number Methods
+function string_Method() {
+    var X = 182
+    document.getElementById("Numbers_to_string").innerHTML = X.toString();
+}
+
+//toPrecision() Method
+function precision_Method() {
+    var X = 12938.3012987376112;
+    document.getElementById("Precision").innerHTML = X.toPrecision(10);
 }
