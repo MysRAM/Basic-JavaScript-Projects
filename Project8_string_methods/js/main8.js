@@ -14,3 +14,13 @@ function slice_Method() {
     var Section = Sentence.slice(27,33);
     document.getElementById("Slice").innerHTML = Section;
 }
+
+//toUpperCase() Method
+function upperCase() {
+    var string = "Hello World!";
+    var result = string.upperCase();
+    document.getElementById("toUpperCase").innerHTML = result
+
+
+//Search() Method
+

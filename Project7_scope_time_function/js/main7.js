@@ -43,7 +43,7 @@ function Age_Function() {
     else {
         Vote = "You are not old enough to vote!";
     }
-    document.getElementById("How_old_are_you?").innterHTML = Vote;
+    document.getElementById("How_old_are_you?").innerHTML = Vote;
     }
 
 //Else/If statements
