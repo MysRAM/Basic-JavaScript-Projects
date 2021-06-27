@@ -21,6 +21,9 @@ function upperCase() {
     var result = string.upperCase();
     document.getElementById("toUpperCase").innerHTML = result
 
-
 //Search() Method
-
+function SearchMethod() {
+    var string = "Vist The Tech Academy for bootcamp information";
+    var n = string.search("bootcamp");
+    document.getElementById("bootcamp").innerHTML = n;
+}
