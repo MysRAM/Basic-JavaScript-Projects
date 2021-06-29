@@ -5,7 +5,7 @@ function full_Sentence() {
     var part_3 = "into a complete ";
     var part_4 = "sentence.";
     var whole_sentence = part_1.concat(part_2, part_3, part_4);
-    document.getElementById("Concatenate").innerHTML + whole_sentence;
+    document.getElementById("Concatenate").innerHTML = whole_sentence;
 }
 
 //Slice() Method
@@ -16,17 +16,17 @@ function slice_Method() {
 }
 
 //toUpperCase() Method
-function upperCase() {
+function toUpperCase() {
     var string = "Hello World!";
-    var result = string.upperCase();
+    var result = string.toUpperCase();
     document.getElementById("toUpperCase").innerHTML = result;
 }
 
 //Search() Method
 function SearchMethod() {
     var str = "Vist The Tech Academy for bootcamp information";
-    var result = str.search(bootcamp);
-    document.getElementById("Method").innerHTML = result;
+    var result = str.search("bootcamp");
+    document.getElementById("SearchMethod").innerHTML = result;
 }
 
 //number Methods
