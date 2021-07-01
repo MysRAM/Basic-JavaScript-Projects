@@ -55,11 +55,6 @@ function ScopeFunction() {
     document.getElementById("ScopeExample").innerHTML = carName;
 }
 
-//constant
-var X = 10; // can change
-var X = 15; //all within same program
-const X = 10; //keyword to assign constant & cannot be modified once defined.
-
 //Const keyword
 function constant_function() {
     const Musical_Instrument = {type:"guitar", brand:"Fender", color:"black"};
@@ -67,3 +62,19 @@ function constant_function() {
     Musical_Instrument.price = "$900";
     document.getElementById("Constant").innerHTML = "The cost of the " + Musical_Instrument.type + " was " + Musical_Instrument.price;
 }
+
+function myconstantFunction() {
+    const Tarot_Cards = {type:"Minor Arcana", suit:"Staves", court: "Queen"};
+    Tarot_Cards.type = "Minor Arcana";
+    Tarot_Cards.suit = "Staves";
+    document.getElementById("tarot").innerHTML = "The queen of" + Tarot_Cards.suit + "is apart of the" + Tarot_Cards.type;
+}
+
+//Let
+var X = 82;
+document.write(X);
+{
+    let X = 33;
+    document.write("<br>" + X);
+}
+document.write("<br>" + X);
