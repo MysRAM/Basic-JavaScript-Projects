@@ -1,4 +1,4 @@
-// Loop 
+// Loop link
 function count_To_Ten() {
     var Digit = "";
     var X = 1;
@@ -9,7 +9,7 @@ function count_To_Ten() {
     document.getElementById("Counting_to_Ten").innerHTML = Digit;
 }
 
-//String Length
+//Length property
 function stringLength() {
 var str = "Hello World!";
 var n = str.length;
@@ -78,3 +78,31 @@ document.write(X);
     document.write("<br>" + X);
 }
 document.write("<br>" + X);
+
+//return statement
+function ReturnStatement() {
+    return Math.PI;
+    document.getElementsById("returnStatement").innerHTML = ReturnStatement();
+}
+
+//Objects--questionable
+let car = {
+    make: "Dodge " ,
+    model: "Viper ",
+    year: "2021 ",
+    color: "red ",
+    description : ObjectLet() {
+        return "The car is a " + this.year + this.color + this.make + this.model;
+    }
+};
+document.getElementsById("ObjectLet").innerHTML = car.description();
+
+//break challenge
+function breakFunction() {
+    let text = "";
+    for (let i = 0; i < 10; i++) {
+        if (i === 3) { break; }
+        text += "the number is " + i + "<br>";
+    }
+    document.getElementById("break").innerHTML = text;
+}
