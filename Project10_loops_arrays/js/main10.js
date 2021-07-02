@@ -87,15 +87,16 @@ function ReturnStatement() {
 
 //Objects--questionable
 let car = {
-    make: "Dodge " ,
-    model: "Viper ",
-    year: "2021 ",
-    color: "red ",
+return car
+    make: "Dodge",
+    model: "Viper",
+    year: "2021",
+    color: "red",
     description : ObjectLet() {
         return "The car is a " + this.year + this.color + this.make + this.model;
     }
 };
-document.getElementsById("ObjectLet").innerHTML = car.description();
+document.getElementById("ObjectLet").innerHTML = car.description();
 
 //break challenge
 function breakFunction() {
